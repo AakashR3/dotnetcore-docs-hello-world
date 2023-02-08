@@ -39,4 +39,4 @@ jobs:
           app-name: 'lms-functionapp'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DEB6765EBA7E41CD8213A8EE8FB1A3D0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B88B7564FE094715A77C8B1A54BD8BB8 }}
